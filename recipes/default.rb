@@ -1,1 +1,1 @@
-include_recipe 'otp::install_otp'
+include_recipe 'install_otp'

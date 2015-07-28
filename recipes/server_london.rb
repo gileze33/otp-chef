@@ -1,4 +1,4 @@
-include_recipe 'otp::install_otp'
+include_recipe 'install_otp'
 
 Chef::Log.info("About to run otp_download_graph for london")
 
