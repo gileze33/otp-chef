@@ -1,0 +1,7 @@
+name             'otp'
+maintainer       'Giles Williams'
+maintainer_email 'giles@urbanmassage.com'
+license          'GNU Public License 3.0'
+description      'Installs/Configures OTP'
+version          '0.0.1'
+supports         'ubuntu'
