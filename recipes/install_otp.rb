@@ -1,6 +1,7 @@
-dir = "/usr/local/otp"
+package "awscli"
 
 def download_otp(exec_action) 
+  dir = "/usr/local/otp"
   url = "http://dev.opentripplanner.org/jars/otp-0.18.0.jar"
   path = "#{dir}/otp.jar"
 
@@ -12,7 +13,7 @@ def download_otp(exec_action)
 end
 
 def install(exec_action) 
-  package "awscli"
+  dir = "/usr/local/otp"
 
   include_recipe "java"
 
