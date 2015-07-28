@@ -1,0 +1,1 @@
+default['otp']['graphs_bucket'] = 'um-otp-graphs'
