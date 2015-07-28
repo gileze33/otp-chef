@@ -67,13 +67,6 @@ Procfile
 */.hg/*
 */.svn/*
 
-# Berkshelf #
-#############
-Berksfile
-Berksfile.lock
-cookbooks/*
-tmp
-
 # Cookbooks #
 #############
 CONTRIBUTING
